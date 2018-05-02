@@ -10,23 +10,10 @@ public protocol AVAssetPixel {
 
 extension RGBA : AVAssetPixel where Channel == UInt8 {
     public static let opaqueZero: RGBA<UInt8> = RGBA(red: 0, green: 0, blue: 0)
-    #if os(iOS) || os(tvOS)
     public static let recommendedFormat: OSType = kCVPixelFormatType_32BGRA
     public static func convert(_ pixel: inout RGBA<UInt8>) {
         swap(&pixel.red, &pixel.blue)
     }
-    #endif
-    #if os(macOS)
-    public static let recommendedFormat: OSType = kCVPixelFormatType_32ARGB
-    public static func convert(_ pixel: inout RGBA<UInt8>) {
-        let alpha = pixel.red
-        let p = UnsafeMutablePointer<RGBA<UInt8>>(&pixel)
-        p.withMemoryRebound(to: UInt32.self, capacity: 1) {
-            $0.pointee <<= 8
-        }
-        pixel.alpha = alpha
-    }
-    #endif
 }
 
 extension UInt8 : AVAssetPixel {
