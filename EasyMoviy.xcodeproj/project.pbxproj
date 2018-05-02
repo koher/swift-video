@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62067F72099751F00268EC5 /* EasyMoviy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62067ED2099751F00268EC5 /* EasyMoviy.framework */; };
+		D620680D2099758D00268EC5 /* EasyMoviy.h in Headers */ = {isa = PBXBuildFile; fileRef = D62068092099758D00268EC5 /* EasyMoviy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D620680E2099758D00268EC5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680A2099758D00268EC5 /* Movie.swift */; };
+		D62068102099758D00268EC5 /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680C2099758D00268EC5 /* AVFoundation.swift */; };
+		D62068172099759700268EC5 /* EasyMoviyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62068142099759700268EC5 /* EasyMoviyTests.swift */; };
+		D62068272099760500268EC5 /* EasyMoviy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620681E2099760500268EC5 /* EasyMoviy.framework */; };
+		D62068432099761700268EC5 /* EasyMoviy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620683A2099761600268EC5 /* EasyMoviy.framework */; };
+		D620685E2099777600268EC5 /* EasyMoviy.h in Headers */ = {isa = PBXBuildFile; fileRef = D62068092099758D00268EC5 /* EasyMoviy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D620685F2099777700268EC5 /* EasyMoviy.h in Headers */ = {isa = PBXBuildFile; fileRef = D62068092099758D00268EC5 /* EasyMoviy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62068602099777700268EC5 /* EasyMoviy.h in Headers */ = {isa = PBXBuildFile; fileRef = D62068092099758D00268EC5 /* EasyMoviy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62068612099778400268EC5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680A2099758D00268EC5 /* Movie.swift */; };
+		D62068622099778400268EC5 /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680C2099758D00268EC5 /* AVFoundation.swift */; };
+		D62068632099778500268EC5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680A2099758D00268EC5 /* Movie.swift */; };
+		D62068642099778500268EC5 /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680C2099758D00268EC5 /* AVFoundation.swift */; };
+		D62068652099778600268EC5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680A2099758D00268EC5 /* Movie.swift */; };
+		D62068662099778600268EC5 /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680C2099758D00268EC5 /* AVFoundation.swift */; };
+		D62068672099778F00268EC5 /* EasyMoviyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62068142099759700268EC5 /* EasyMoviyTests.swift */; };
+		D62068682099779100268EC5 /* EasyMoviyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62068142099759700268EC5 /* EasyMoviyTests.swift */; };
+		D620686A20997C6D00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686920997C6D00268EC5 /* EasyImagy.framework */; };
+		D620686B20997C6D00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686920997C6D00268EC5 /* EasyImagy.framework */; };
+		D620686D20997C8500268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686C20997C8500268EC5 /* EasyImagy.framework */; };
+		D620686E20997C8500268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686C20997C8500268EC5 /* EasyImagy.framework */; };
+		D620687020997C9100268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686F20997C9100268EC5 /* EasyImagy.framework */; };
+		D620687120997C9100268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686F20997C9100268EC5 /* EasyImagy.framework */; };
+		D620687320997C9F00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620687220997C9F00268EC5 /* EasyImagy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D62067F82099751F00268EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62067E42099751F00268EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62067EC2099751F00268EC5;
+			remoteInfo = EasyMoviy;
+		};
+		D62068282099760500268EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62067E42099751F00268EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D620681D2099760500268EC5;
+			remoteInfo = "EasyMoviy-macOS";
+		};
+		D62068442099761700268EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62067E42099751F00268EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62068392099761600268EC5;
+			remoteInfo = "EasyMoviy-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62067ED2099751F00268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62067F62099751F00268EC5 /* EasyMoviyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMoviyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62068092099758D00268EC5 /* EasyMoviy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMoviy.h; sourceTree = "<group>"; };
+		D620680A2099758D00268EC5 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D620680B2099758D00268EC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D620680C2099758D00268EC5 /* AVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFoundation.swift; sourceTree = "<group>"; };
+		D62068122099759700268EC5 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		D62068142099759700268EC5 /* EasyMoviyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyMoviyTests.swift; sourceTree = "<group>"; };
+		D62068152099759700268EC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D620681E2099760500268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62068262099760500268EC5 /* EasyMoviyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMoviyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620683A2099761600268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62068422099761700268EC5 /* EasyMoviyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMoviyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62068562099763000268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620686920997C6D00268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/iOS/EasyImagy.framework; sourceTree = "<group>"; };
+		D620686C20997C8500268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/Mac/EasyImagy.framework; sourceTree = "<group>"; };
+		D620686F20997C9100268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/tvOS/EasyImagy.framework; sourceTree = "<group>"; };
+		D620687220997C9F00268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/watchOS/EasyImagy.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62067E92099751F00268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620686A20997C6D00268EC5 /* EasyImagy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62067F32099751F00268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620686B20997C6D00268EC5 /* EasyImagy.framework in Frameworks */,
+				D62067F72099751F00268EC5 /* EasyMoviy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620681A2099760500268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620686D20997C8500268EC5 /* EasyImagy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068232099760500268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620686E20997C8500268EC5 /* EasyImagy.framework in Frameworks */,
+				D62068272099760500268EC5 /* EasyMoviy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068362099761600268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620687020997C9100268EC5 /* EasyImagy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620683F2099761700268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620687120997C9100268EC5 /* EasyImagy.framework in Frameworks */,
+				D62068432099761700268EC5 /* EasyMoviy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068522099763000268EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620687320997C9F00268EC5 /* EasyImagy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62067E32099751F00268EC5 = {
+			isa = PBXGroup;
+			children = (
+				D620686920997C6D00268EC5 /* EasyImagy.framework */,
+				D620686C20997C8500268EC5 /* EasyImagy.framework */,
+				D620686F20997C9100268EC5 /* EasyImagy.framework */,
+				D620687220997C9F00268EC5 /* EasyImagy.framework */,
+				D62068072099758D00268EC5 /* Sources */,
+				D62068112099759700268EC5 /* Tests */,
+				D62067EE2099751F00268EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62067EE2099751F00268EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62067ED2099751F00268EC5 /* EasyMoviy.framework */,
+				D62067F62099751F00268EC5 /* EasyMoviyTests.xctest */,
+				D620681E2099760500268EC5 /* EasyMoviy.framework */,
+				D62068262099760500268EC5 /* EasyMoviyTests.xctest */,
+				D620683A2099761600268EC5 /* EasyMoviy.framework */,
+				D62068422099761700268EC5 /* EasyMoviyTests.xctest */,
+				D62068562099763000268EC5 /* EasyMoviy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62068072099758D00268EC5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D62068082099758D00268EC5 /* EasyMoviy */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D62068082099758D00268EC5 /* EasyMoviy */ = {
+			isa = PBXGroup;
+			children = (
+				D62068092099758D00268EC5 /* EasyMoviy.h */,
+				D620680A2099758D00268EC5 /* Movie.swift */,
+				D620680B2099758D00268EC5 /* Info.plist */,
+				D620680C2099758D00268EC5 /* AVFoundation.swift */,
+			);
+			path = EasyMoviy;
+			sourceTree = "<group>";
+		};
+		D62068112099759700268EC5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D62068122099759700268EC5 /* LinuxMain.swift */,
+				D62068132099759700268EC5 /* EasyMoviyTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D62068132099759700268EC5 /* EasyMoviyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D62068142099759700268EC5 /* EasyMoviyTests.swift */,
+				D62068152099759700268EC5 /* Info.plist */,
+			);
+			path = EasyMoviyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D62067EA2099751F00268EC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620680D2099758D00268EC5 /* EasyMoviy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620681B2099760500268EC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620685E2099777600268EC5 /* EasyMoviy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068372099761600268EC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620685F2099777700268EC5 /* EasyMoviy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068532099763000268EC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068602099777700268EC5 /* EasyMoviy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D62067EC2099751F00268EC5 /* EasyMoviy-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62068012099751F00268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-iOS" */;
+			buildPhases = (
+				D62067E82099751F00268EC5 /* Sources */,
+				D62067E92099751F00268EC5 /* Frameworks */,
+				D62067EA2099751F00268EC5 /* Headers */,
+				D62067EB2099751F00268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyMoviy-iOS";
+			productName = EasyMoviy;
+			productReference = D62067ED2099751F00268EC5 /* EasyMoviy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D62067F52099751F00268EC5 /* EasyMoviyTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62068042099751F00268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-iOS" */;
+			buildPhases = (
+				D62067F22099751F00268EC5 /* Sources */,
+				D62067F32099751F00268EC5 /* Frameworks */,
+				D62067F42099751F00268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62067F92099751F00268EC5 /* PBXTargetDependency */,
+			);
+			name = "EasyMoviyTests-iOS";
+			productName = EasyMoviyTests;
+			productReference = D62067F62099751F00268EC5 /* EasyMoviyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D620681D2099760500268EC5 /* EasyMoviy-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620682F2099760500268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-macOS" */;
+			buildPhases = (
+				D62068192099760500268EC5 /* Sources */,
+				D620681A2099760500268EC5 /* Frameworks */,
+				D620681B2099760500268EC5 /* Headers */,
+				D620681C2099760500268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyMoviy-macOS";
+			productName = "EasyMoviy-macOS";
+			productReference = D620681E2099760500268EC5 /* EasyMoviy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D62068252099760500268EC5 /* EasyMoviyTests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62068322099760500268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-macOS" */;
+			buildPhases = (
+				D62068222099760500268EC5 /* Sources */,
+				D62068232099760500268EC5 /* Frameworks */,
+				D62068242099760500268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62068292099760500268EC5 /* PBXTargetDependency */,
+			);
+			name = "EasyMoviyTests-macOS";
+			productName = "EasyMoviy-macOSTests";
+			productReference = D62068262099760500268EC5 /* EasyMoviyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62068392099761600268EC5 /* EasyMoviy-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620684B2099761700268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-tvOS" */;
+			buildPhases = (
+				D62068352099761600268EC5 /* Sources */,
+				D62068362099761600268EC5 /* Frameworks */,
+				D62068372099761600268EC5 /* Headers */,
+				D62068382099761600268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyMoviy-tvOS";
+			productName = "EasyMoviy-tvOS";
+			productReference = D620683A2099761600268EC5 /* EasyMoviy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D62068412099761700268EC5 /* EasyMoviyTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620684E2099761700268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-tvOS" */;
+			buildPhases = (
+				D620683E2099761700268EC5 /* Sources */,
+				D620683F2099761700268EC5 /* Frameworks */,
+				D62068402099761700268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62068452099761700268EC5 /* PBXTargetDependency */,
+			);
+			name = "EasyMoviyTests-tvOS";
+			productName = "EasyMoviy-tvOSTests";
+			productReference = D62068422099761700268EC5 /* EasyMoviyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62068552099763000268EC5 /* EasyMoviy-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620685B2099763000268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-watchOS" */;
+			buildPhases = (
+				D62068512099763000268EC5 /* Sources */,
+				D62068522099763000268EC5 /* Frameworks */,
+				D62068532099763000268EC5 /* Headers */,
+				D62068542099763000268EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyMoviy-watchOS";
+			productName = "EasyMoviy-watchOS";
+			productReference = D62068562099763000268EC5 /* EasyMoviy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62067E42099751F00268EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = koherent.org;
+				TargetAttributes = {
+					D62067EC2099751F00268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D62067F52099751F00268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D620681D2099760500268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D62068252099760500268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D62068392099761600268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D62068412099761700268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D62068552099763000268EC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D62067E72099751F00268EC5 /* Build configuration list for PBXProject "EasyMoviy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D62067E32099751F00268EC5;
+			productRefGroup = D62067EE2099751F00268EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62067EC2099751F00268EC5 /* EasyMoviy-iOS */,
+				D62067F52099751F00268EC5 /* EasyMoviyTests-iOS */,
+				D620681D2099760500268EC5 /* EasyMoviy-macOS */,
+				D62068252099760500268EC5 /* EasyMoviyTests-macOS */,
+				D62068392099761600268EC5 /* EasyMoviy-tvOS */,
+				D62068412099761700268EC5 /* EasyMoviyTests-tvOS */,
+				D62068552099763000268EC5 /* EasyMoviy-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62067EB2099751F00268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62067F42099751F00268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620681C2099760500268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068242099760500268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068382099761600268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068402099761700268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068542099763000268EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62067E82099751F00268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620680E2099758D00268EC5 /* Movie.swift in Sources */,
+				D62068102099758D00268EC5 /* AVFoundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62067F22099751F00268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068172099759700268EC5 /* EasyMoviyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068192099760500268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068612099778400268EC5 /* Movie.swift in Sources */,
+				D62068622099778400268EC5 /* AVFoundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068222099760500268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068672099778F00268EC5 /* EasyMoviyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068352099761600268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068632099778500268EC5 /* Movie.swift in Sources */,
+				D62068642099778500268EC5 /* AVFoundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620683E2099761700268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068682099779100268EC5 /* EasyMoviyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62068512099763000268EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62068652099778600268EC5 /* Movie.swift in Sources */,
+				D62068662099778600268EC5 /* AVFoundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62067F92099751F00268EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62067EC2099751F00268EC5 /* EasyMoviy-iOS */;
+			targetProxy = D62067F82099751F00268EC5 /* PBXContainerItemProxy */;
+		};
+		D62068292099760500268EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D620681D2099760500268EC5 /* EasyMoviy-macOS */;
+			targetProxy = D62068282099760500268EC5 /* PBXContainerItemProxy */;
+		};
+		D62068452099761700268EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62068392099761600268EC5 /* EasyMoviy-tvOS */;
+			targetProxy = D62068442099761700268EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D62067FF2099751F00268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D62068002099751F00268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D62068022099751F00268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62068032099751F00268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62068052099751F00268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62068062099751F00268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62068302099760500268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D62068312099760500268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D62068332099760500268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D62068342099760500268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D620684C2099761700268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		D620684D2099761700268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		D620684F2099761700268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		D62068502099761700268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/EasyMoviyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviyTests;
+				PRODUCT_NAME = EasyMoviyTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Release;
+		};
+		D620685C2099763000268EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		D620685D2099763000268EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Sources/EasyMoviy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.EasyMoviy;
+				PRODUCT_NAME = EasyMoviy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62067E72099751F00268EC5 /* Build configuration list for PBXProject "EasyMoviy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62067FF2099751F00268EC5 /* Debug */,
+				D62068002099751F00268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62068012099751F00268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62068022099751F00268EC5 /* Debug */,
+				D62068032099751F00268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62068042099751F00268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62068052099751F00268EC5 /* Debug */,
+				D62068062099751F00268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620682F2099760500268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62068302099760500268EC5 /* Debug */,
+				D62068312099760500268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62068322099760500268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62068332099760500268EC5 /* Debug */,
+				D62068342099760500268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620684B2099761700268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620684C2099761700268EC5 /* Debug */,
+				D620684D2099761700268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620684E2099761700268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviyTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620684F2099761700268EC5 /* Debug */,
+				D62068502099761700268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620685B2099763000268EC5 /* Build configuration list for PBXNativeTarget "EasyMoviy-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620685C2099763000268EC5 /* Debug */,
+				D620685D2099763000268EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62067E42099751F00268EC5 /* Project object */;
+}

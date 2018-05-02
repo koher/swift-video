@@ -1,4 +1,4 @@
-#if canImport(AVFoundation)
+#if canImport(AVFoundation) && !os(watchOS)
 import EasyImagy
 import AVFoundation
 
@@ -10,7 +10,7 @@ public protocol AVAssetPixel {
 
 extension RGBA : AVAssetPixel where Channel == UInt8 {
     public static let opaqueZero: RGBA<UInt8> = RGBA(red: 0, green: 0, blue: 0)
-    #if os(iOS) || os(watchOS) || os(tvOS)
+    #if os(iOS) || os(tvOS)
     public static let recommendedFormat: OSType = kCVPixelFormatType_32BGRA
     public static func convert(_ pixel: inout RGBA<UInt8>) {
         swap(&pixel.red, &pixel.blue)
