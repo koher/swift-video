@@ -11,7 +11,7 @@ let package = Package(
             targets: ["EasyMoviy"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/koher/EasyImagy.git", from: "0.4.0-alpha"),
+        .package(url: "https://github.com/koher/EasyImagy.git", from: "0.5.0-alpha"),
     ],
     targets: [
         .target(

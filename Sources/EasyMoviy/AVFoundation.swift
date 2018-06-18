@@ -16,6 +16,14 @@ extension RGBA : AVAssetPixel where Channel == UInt8 {
     }
 }
 
+extension PremultipliedRGBA : AVAssetPixel where Channel == UInt8 {
+    public static let opaqueZero: PremultipliedRGBA<UInt8> = PremultipliedRGBA(red: 0, green: 0, blue: 0, alpha: 255)
+    public static let recommendedFormat: OSType = kCVPixelFormatType_32BGRA
+    public static func convert(_ pixel: inout PremultipliedRGBA<UInt8>) {
+        swap(&pixel.red, &pixel.blue)
+    }
+}
+
 extension UInt8 : AVAssetPixel {
     public static let opaqueZero: UInt8 = 0
     public static let recommendedFormat: OSType = kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
