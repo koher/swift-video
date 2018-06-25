@@ -6,12 +6,16 @@ public protocol AVAssetPixel {
     static var opaqueZero: Self { get }
     static var recommendedFormat: OSType { get }
     static func convert(_ pixel: inout Self)
+    static func invert(_ pixel: inout Self)
 }
 
 extension RGBA : AVAssetPixel where Channel == UInt8 {
     public static let opaqueZero: RGBA<UInt8> = RGBA(red: 0, green: 0, blue: 0)
     public static let recommendedFormat: OSType = kCVPixelFormatType_32BGRA
     public static func convert(_ pixel: inout RGBA<UInt8>) {
+        swap(&pixel.red, &pixel.blue)
+    }
+    public static func invert(_ pixel: inout RGBA<UInt8>) {
         swap(&pixel.red, &pixel.blue)
     }
 }
@@ -22,12 +26,16 @@ extension PremultipliedRGBA : AVAssetPixel where Channel == UInt8 {
     public static func convert(_ pixel: inout PremultipliedRGBA<UInt8>) {
         swap(&pixel.red, &pixel.blue)
     }
+    public static func invert(_ pixel: inout PremultipliedRGBA<UInt8>) {
+        swap(&pixel.red, &pixel.blue)
+    }
 }
 
 extension UInt8 : AVAssetPixel {
     public static let opaqueZero: UInt8 = 0
     public static let recommendedFormat: OSType = kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
     public static func convert(_ pixel: inout UInt8) {}
+    public static func invert(_ pixel: inout UInt8) {}
 }
 
 extension Movie where Pixel : AVAssetPixel {
@@ -94,7 +102,7 @@ extension Movie where Pixel : AVAssetPixel {
 
                     // `!` because it never returns `nil` for the designated format
                     let baseAddress = CVPixelBufferGetBaseAddress(pixelBuffer)!
-                    if inBytesPerRow == MemoryLayout<Pixel>.size * count {
+                    if inBytesPerRow == MemoryLayout<Pixel>.size * width {
                         let pointer = baseAddress.bindMemory(to: Pixel.self, capacity: count)
                         frame.withUnsafeMutableBufferPointer {
                             var pIn = pointer

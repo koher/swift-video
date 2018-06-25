@@ -25,13 +25,17 @@
 		D62068662099778600268EC5 /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620680C2099758D00268EC5 /* AVFoundation.swift */; };
 		D62068672099778F00268EC5 /* EasyMoviyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62068142099759700268EC5 /* EasyMoviyTests.swift */; };
 		D62068682099779100268EC5 /* EasyMoviyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62068142099759700268EC5 /* EasyMoviyTests.swift */; };
-		D620686A20997C6D00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686920997C6D00268EC5 /* EasyImagy.framework */; };
-		D620686B20997C6D00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686920997C6D00268EC5 /* EasyImagy.framework */; };
-		D620686D20997C8500268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686C20997C8500268EC5 /* EasyImagy.framework */; };
-		D620686E20997C8500268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686C20997C8500268EC5 /* EasyImagy.framework */; };
-		D620687020997C9100268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686F20997C9100268EC5 /* EasyImagy.framework */; };
-		D620687120997C9100268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620686F20997C9100268EC5 /* EasyImagy.framework */; };
-		D620687320997C9F00268EC5 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620687220997C9F00268EC5 /* EasyImagy.framework */; };
+		D6ECC40020E0AF760042561B /* MovieWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECC3FF20E0AF760042561B /* MovieWriter.swift */; };
+		D6ECC40120E0AF760042561B /* MovieWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECC3FF20E0AF760042561B /* MovieWriter.swift */; };
+		D6ECC40220E0AF760042561B /* MovieWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECC3FF20E0AF760042561B /* MovieWriter.swift */; };
+		D6ECC40320E0AF760042561B /* MovieWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECC3FF20E0AF760042561B /* MovieWriter.swift */; };
+		D6ECC40720E0EF810042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40620E0EF810042561B /* EasyImagy.framework */; };
+		D6ECC40820E0EF810042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40620E0EF810042561B /* EasyImagy.framework */; };
+		D6ECC40A20E0EF9F0042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40920E0EF9F0042561B /* EasyImagy.framework */; };
+		D6ECC40B20E0EF9F0042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40920E0EF9F0042561B /* EasyImagy.framework */; };
+		D6ECC40D20E0EFAE0042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40C20E0EFAE0042561B /* EasyImagy.framework */; };
+		D6ECC40E20E0EFAE0042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40C20E0EFAE0042561B /* EasyImagy.framework */; };
+		D6ECC41020E0EFBB0042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC40F20E0EFBA0042561B /* EasyImagy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +77,11 @@
 		D620683A2099761600268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62068422099761700268EC5 /* EasyMoviyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMoviyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62068562099763000268EC5 /* EasyMoviy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMoviy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D620686920997C6D00268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/iOS/EasyImagy.framework; sourceTree = "<group>"; };
-		D620686C20997C8500268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/Mac/EasyImagy.framework; sourceTree = "<group>"; };
-		D620686F20997C9100268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/tvOS/EasyImagy.framework; sourceTree = "<group>"; };
-		D620687220997C9F00268EC5 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/watchOS/EasyImagy.framework; sourceTree = "<group>"; };
+		D6ECC3FF20E0AF760042561B /* MovieWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieWriter.swift; sourceTree = "<group>"; };
+		D6ECC40620E0EF810042561B /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/iOS/EasyImagy.framework; sourceTree = "<group>"; };
+		D6ECC40920E0EF9F0042561B /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/Mac/EasyImagy.framework; sourceTree = "<group>"; };
+		D6ECC40C20E0EFAE0042561B /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/tvOS/EasyImagy.framework; sourceTree = "<group>"; };
+		D6ECC40F20E0EFBA0042561B /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyImagy.framework; path = Carthage/Build/watchOS/EasyImagy.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620686A20997C6D00268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40720E0EF810042561B /* EasyImagy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620686B20997C6D00268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40820E0EF810042561B /* EasyImagy.framework in Frameworks */,
 				D62067F72099751F00268EC5 /* EasyMoviy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620686D20997C8500268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40A20E0EF9F0042561B /* EasyImagy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620686E20997C8500268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40B20E0EF9F0042561B /* EasyImagy.framework in Frameworks */,
 				D62068272099760500268EC5 /* EasyMoviy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620687020997C9100268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40D20E0EFAE0042561B /* EasyImagy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620687120997C9100268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC40E20E0EFAE0042561B /* EasyImagy.framework in Frameworks */,
 				D62068432099761700268EC5 /* EasyMoviy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D620687320997C9F00268EC5 /* EasyImagy.framework in Frameworks */,
+				D6ECC41020E0EFBB0042561B /* EasyImagy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +150,10 @@
 		D62067E32099751F00268EC5 = {
 			isa = PBXGroup;
 			children = (
-				D620686920997C6D00268EC5 /* EasyImagy.framework */,
-				D620686C20997C8500268EC5 /* EasyImagy.framework */,
-				D620686F20997C9100268EC5 /* EasyImagy.framework */,
-				D620687220997C9F00268EC5 /* EasyImagy.framework */,
+				D6ECC40620E0EF810042561B /* EasyImagy.framework */,
+				D6ECC40920E0EF9F0042561B /* EasyImagy.framework */,
+				D6ECC40C20E0EFAE0042561B /* EasyImagy.framework */,
+				D6ECC40F20E0EFBA0042561B /* EasyImagy.framework */,
 				D62068072099758D00268EC5 /* Sources */,
 				D62068112099759700268EC5 /* Tests */,
 				D62067EE2099751F00268EC5 /* Products */,
@@ -182,6 +187,7 @@
 			children = (
 				D62068092099758D00268EC5 /* EasyMoviy.h */,
 				D620680A2099758D00268EC5 /* Movie.swift */,
+				D6ECC3FF20E0AF760042561B /* MovieWriter.swift */,
 				D620680B2099758D00268EC5 /* Info.plist */,
 				D620680C2099758D00268EC5 /* AVFoundation.swift */,
 			);
@@ -484,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D620680E2099758D00268EC5 /* Movie.swift in Sources */,
+				D6ECC40020E0AF760042561B /* MovieWriter.swift in Sources */,
 				D62068102099758D00268EC5 /* AVFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62068612099778400268EC5 /* Movie.swift in Sources */,
+				D6ECC40120E0AF760042561B /* MovieWriter.swift in Sources */,
 				D62068622099778400268EC5 /* AVFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62068632099778500268EC5 /* Movie.swift in Sources */,
+				D6ECC40220E0AF760042561B /* MovieWriter.swift in Sources */,
 				D62068642099778500268EC5 /* AVFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62068652099778600268EC5 /* Movie.swift in Sources */,
+				D6ECC40320E0AF760042561B /* MovieWriter.swift in Sources */,
 				D62068662099778600268EC5 /* AVFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
