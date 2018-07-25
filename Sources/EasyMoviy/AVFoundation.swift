@@ -57,7 +57,7 @@ extension Movie where Pixel : AVAssetPixel {
             
             var firstPixelBuffer: CVPixelBuffer? = output.copyNextSampleBuffer().flatMap { buffer in CMSampleBufferGetImageBuffer(buffer) }
             guard let pixelBuffer = firstPixelBuffer else {
-                self.init(width: 0, height: 0) { AnyIterator { nil } }
+                self.init(width: 0, height: 0) { { nil } }
                 return
             }
             
@@ -67,7 +67,7 @@ extension Movie where Pixel : AVAssetPixel {
             reader.cancelReading()
         }
         
-        let makeIterator: () -> AnyIterator<Image<Pixel>> = {
+        let makeIterator: () -> (() -> Image<Pixel>?) = {
             let videoTracks = avAsset.tracks(withMediaType: .video)
             let videoTrack = videoTracks[0]
             let reader = try! AVAssetReader(asset: avAsset)
@@ -84,7 +84,7 @@ extension Movie where Pixel : AVAssetPixel {
             
             var frame = Image<Pixel>(width: width, height: height, pixel: Pixel.opaqueZero)
             
-            return AnyIterator<Image<Pixel>> {
+            return {
                 let output = reader.outputs[0]
                 
                 guard
