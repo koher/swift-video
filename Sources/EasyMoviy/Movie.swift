@@ -14,7 +14,7 @@ public struct Movie<Pixel> {
     
 }
 
-public struct MovieIterator<Pixel>: IteratorProtocol {
+public final class MovieIterator<Pixel>: IteratorProtocol {
     private let width: Int
     private let height: Int
     
@@ -26,7 +26,7 @@ public struct MovieIterator<Pixel>: IteratorProtocol {
         self.iterator = iterator
     }
     
-    public mutating func next() -> Image<Pixel>? {
+    public func next() -> Image<Pixel>? {
         guard let frame = iterator() else { return nil }
         precondition(frame.width == width && frame.height == height, "Illegal frame size: frame.size = (\(frame.width), \(frame.height)), movie.size = (\(width), \(height)")
         return frame
