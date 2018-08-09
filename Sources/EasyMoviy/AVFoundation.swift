@@ -76,7 +76,9 @@ extension Movie where Pixel : AVAssetPixel {
                 output.alwaysCopiesSampleData = false
                 reader.add(output)
             }
-            reader.startReading()
+            guard reader.startReading() else {
+                preconditionFailure(String(reflecting: reader.error!))
+            }
 
             let count = width * height
             let byteLength = count * MemoryLayout<Pixel>.size
