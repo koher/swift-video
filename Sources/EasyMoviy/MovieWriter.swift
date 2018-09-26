@@ -123,7 +123,7 @@ public class MovieWriter<Pixel : AVAssetPixel> {
 }
 
 public enum MovieWriterError : Error {
-    case illegalStatus(status: AVAssetWriterStatus, error: Error)
+    case illegalStatus(status: AVAssetWriter.Status, error: Error)
     case failedToCreatePixelBuffer(CVReturn)
 }
 
