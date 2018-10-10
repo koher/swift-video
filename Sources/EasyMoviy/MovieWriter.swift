@@ -6,15 +6,15 @@ import Foundation
 public class MovieWriter<Pixel : AVAssetPixel> {
     private let assetWriter: AVAssetWriter
     private let assetWriterInput: AVAssetWriterInput
-    private let pixelBufferAdaptor: AVAssetWriterInputPixelBufferAdaptor
-    private let pixelBuffer: CVPixelBuffer
+    @usableFromInline internal let pixelBufferAdaptor: AVAssetWriterInputPixelBufferAdaptor
+    @usableFromInline internal let pixelBuffer: CVPixelBuffer
     
-    private let width: Int
-    private let height: Int
+    @usableFromInline internal let width: Int
+    @usableFromInline internal let height: Int
 
     private var finished: Bool = false
     
-    private var lastTime: CMTime?
+    @usableFromInline internal var lastTime: CMTime?
     
     public init(url: URL, type: AVFileType, width: Int, height: Int) throws {
         precondition(width > 0, "`width` must be greater than 0: \(width)")
@@ -60,10 +60,8 @@ public class MovieWriter<Pixel : AVAssetPixel> {
         self.width = width
         self.height = height
     }
-    
-    @_specialize(exported: true, kind: partial, where I == Image<RGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<PremultipliedRGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<UInt8>)
+
+    @inlinable
     public func write<I>(_ image: I, time: CMTime) throws where I : ImageProtocol, I.Pixel == Pixel {
         precondition(image.width == width && image.height == height, "The size of the frame (\(image.width), \(image.height)) must be equal to (\(width), \(height)).")
         
@@ -93,16 +91,12 @@ public class MovieWriter<Pixel : AVAssetPixel> {
         lastTime = time
     }
     
-    @_specialize(exported: true, kind: partial, where I == Image<RGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<PremultipliedRGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<UInt8>)
+    @inlinable
     public func write<I>(_ image: I, time: TimeInterval) throws where I : ImageProtocol, I.Pixel == Pixel {
         try write(image, time: CMTime(seconds: time, preferredTimescale: CMTimeScale(NSEC_PER_SEC)))
     }
     
-    @_specialize(exported: true, kind: partial, where I == Image<RGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<PremultipliedRGBA<UInt8>>)
-    @_specialize(exported: true, kind: partial, where I == Image<UInt8>)
+    @inlinable
     public func write<I>(_ image: I, interval: TimeInterval) throws where I : ImageProtocol, I.Pixel == Pixel {
         guard let lastTime = self.lastTime else {
             try write(image, time: 0.0)
