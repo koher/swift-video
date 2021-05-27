@@ -1,5 +1,5 @@
 import XCTest
-@testable import EasyMoviy
+@testable import SwiftImage
 
 class EasyMoviyTests: XCTestCase {
     func testExample() {

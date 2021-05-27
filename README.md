@@ -1,13 +1,13 @@
-# EasyMoviy
+# SwiftVideo
 
 ```swift
-import EasyMoviy
-import EasyImagy
+import SwiftVideo
+import SwiftImage
 
-let movie = try! Movie<RGBA<UInt8>>(avAsset: asset)
+let video = try! Video<RGBA<UInt8>>(avAsset: asset)
 
-// Obtains frames of the `movie`
-for image in movie { // image: Image<RGBA<UInt8>>
+// Obtains frames of the `video`
+for image in video { // image: Image<RGBA<UInt8>>
     // Uses `image` here
 }
 ```

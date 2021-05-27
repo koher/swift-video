@@ -1,24 +1,24 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "EasyMoviy",
+    name: "SwiftVideo",
     products: [
         .library(
-            name: "EasyMoviy",
-            targets: ["EasyMoviy"]),
+            name: "SwiftVideo",
+            targets: ["SwiftVideo"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/koher/EasyImagy.git", from: "0.5.0"),
+        .package(name: "SwiftImage", url: "https://github.com/koher/swift-image.git", from: "0.7.1"),
     ],
     targets: [
         .target(
-            name: "EasyMoviy",
-            dependencies: ["EasyImagy"]),
+            name: "SwiftVideo",
+            dependencies: ["SwiftImage"]),
         .testTarget(
-            name: "EasyMoviyTests",
-            dependencies: ["EasyMoviy", "EasyImagy"]),
+            name: "SwiftVideoTests",
+            dependencies: ["SwiftVideo", "SwiftImage"]),
     ]
 )

@@ -1,5 +1,5 @@
 #if canImport(AVFoundation) && !os(watchOS)
-import EasyImagy
+import SwiftImage
 import AVFoundation
 
 public protocol AVAssetPixel {
@@ -38,7 +38,7 @@ extension UInt8 : AVAssetPixel {
     public static func invert(_ pixel: inout UInt8) {}
 }
 
-extension Movie where Pixel : AVAssetPixel {
+extension Video where Pixel : AVAssetPixel {
     public init(avAsset: AVAsset) throws {
         let width: Int
         let height: Int
@@ -55,7 +55,7 @@ extension Movie where Pixel : AVAssetPixel {
             output.alwaysCopiesSampleData = false
             reader.startReading()
             
-            var firstPixelBuffer: CVPixelBuffer? = output.copyNextSampleBuffer().flatMap { buffer in CMSampleBufferGetImageBuffer(buffer) }
+            let firstPixelBuffer: CVPixelBuffer? = output.copyNextSampleBuffer().flatMap { buffer in CMSampleBufferGetImageBuffer(buffer) }
             guard let pixelBuffer = firstPixelBuffer else {
                 self.init(width: 0, height: 0) { { nil } }
                 return
@@ -81,8 +81,6 @@ extension Movie where Pixel : AVAssetPixel {
             }
 
             let count = width * height
-            let byteLength = count * MemoryLayout<Pixel>.size
-            let outBytesPerRow = width * MemoryLayout<Pixel>.size
             
             var frame = Image<Pixel>(width: width, height: height, pixel: Pixel.opaqueZero)
             
@@ -150,7 +148,7 @@ extension Movie where Pixel : AVAssetPixel {
     }
 }
 
-extension Movie {
+extension Video {
     public enum InitializationError: Error {
         case noVideoTrack
         case multipleVideoTracks(Int)

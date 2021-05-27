@@ -1,9 +1,9 @@
 #if canImport(AVFoundation)
 import AVFoundation
-import EasyImagy
+import SwiftImage
 import Foundation
 
-public class MovieWriter<Pixel : AVAssetPixel> {
+public class VideoWriter<Pixel : AVAssetPixel> {
     private let assetWriter: AVAssetWriter
     private let assetWriterInput: AVAssetWriterInput
     @usableFromInline internal let pixelBufferAdaptor: AVAssetWriterInputPixelBufferAdaptor
@@ -39,7 +39,7 @@ public class MovieWriter<Pixel : AVAssetPixel> {
         assetWriter.startWriting()
         assetWriter.startSession(atSourceTime: CMTime.init(value: 0, timescale: 1))
         if assetWriter.status == .failed {
-            throw MovieWriterError.illegalStatus(status: assetWriter.status, error: assetWriter.error!)
+            throw VideoWriterError.illegalStatus(status: assetWriter.status, error: assetWriter.error!)
         }
         assert(pixelBufferAdaptor.pixelBufferPool != nil)
         
@@ -47,7 +47,7 @@ public class MovieWriter<Pixel : AVAssetPixel> {
         do {
             let resultCode = CVPixelBufferPoolCreatePixelBuffer(nil, pixelBufferAdaptor.pixelBufferPool!, &pixelBuffer)
             guard resultCode == 0 else {
-                throw MovieWriterError.failedToCreatePixelBuffer(resultCode)
+                throw VideoWriterError.failedToCreatePixelBuffer(resultCode)
             }
         }
         assert(pixelBuffer != nil)
@@ -116,7 +116,7 @@ public class MovieWriter<Pixel : AVAssetPixel> {
     }
 }
 
-public enum MovieWriterError : Error {
+public enum VideoWriterError : Error {
     case illegalStatus(status: AVAssetWriter.Status, error: Error)
     case failedToCreatePixelBuffer(CVReturn)
 }

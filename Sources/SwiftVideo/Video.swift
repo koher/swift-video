@@ -1,6 +1,6 @@
-import EasyImagy
+import SwiftImage
 
-public struct Movie<Pixel> {
+public struct Video<Pixel> {
     public let width: Int
     public let height: Int
     
@@ -14,7 +14,7 @@ public struct Movie<Pixel> {
     
 }
 
-public final class MovieIterator<Pixel>: IteratorProtocol {
+public final class VideoIterator<Pixel>: IteratorProtocol {
     private let width: Int
     private let height: Int
     
@@ -28,14 +28,14 @@ public final class MovieIterator<Pixel>: IteratorProtocol {
     
     public func next() -> Image<Pixel>? {
         guard let frame = iterator() else { return nil }
-        precondition(frame.width == width && frame.height == height, "Illegal frame size: frame.size = (\(frame.width), \(frame.height)), movie.size = (\(width), \(height)")
+        precondition(frame.width == width && frame.height == height, "Illegal frame size: frame.size = (\(frame.width), \(frame.height)), video.size = (\(width), \(height)")
         return frame
     }
 }
 
-extension Movie: Sequence {
-    public func makeIterator() -> MovieIterator<Pixel> {
-        return MovieIterator(width: width, height: height, iterator: _makeIterator())
+extension Video: Sequence {
+    public func makeIterator() -> VideoIterator<Pixel> {
+        return VideoIterator(width: width, height: height, iterator: _makeIterator())
     }
 }
 
